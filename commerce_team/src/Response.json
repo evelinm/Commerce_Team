@@ -1,0 +1,78 @@
+[
+    {
+        "firstName": "Evelin",
+        "lastName" : "Murillo",
+        "company" : "Taskrabbit"
+    },
+    {
+        "firstName": "Tina",
+        "lastName" : "Belcher",
+        "company" : "Bobs Burgers"
+    },
+    {
+        "firstName": "Ozzy",
+        "lastName" : "Osbourne",
+        "company" : "Unemployed"
+    },
+    {
+        "firstName": "Evelin",
+        "lastName" : "Nieto",
+        "company" : "New Relic"
+    },
+    {
+        "firstName": "Louise",
+        "lastName" : "Belcher",
+        "company" : "Bobs Burgers"
+    },
+    {
+        "firstName": "Niles",
+        "lastName" : "crane",
+        "company" : "Unemployed"
+    },
+    {
+        "firstName": "potato",
+        "lastName" : "crane",
+        "company" : "Safeway"
+    },
+    {
+        "firstName": "Leo",
+        "lastName" : "Munoz",
+        "company" : "Leef"
+    },
+    {
+        "firstName": "Anna",
+        "lastName" : "Anda",
+        "company" : "Hospital"
+    },
+    {
+        "firstName": "Kenny",
+        "lastName" : "Lee",
+        "company" : "Ikea"
+    },
+    {
+        "firstName": "Marco",
+        "lastName" : "Alvarez",
+        "company" : "Sephora"
+    },
+    {
+        "firstName": "Joei",
+        "lastName" : "Baghania",
+        "company" : "Lincon Elemntary"
+    },
+    {
+        "firstName": "Kenny",
+        "lastName" : "Anda",
+        "company" : "Ikea"
+    },
+    {
+        "firstName": "Randi",
+        "lastName" : "Alvarez",
+        "company" : "Sephora"
+    },
+    {
+        "firstName": "Joei",
+        "lastName" : "randi",
+        "company" : "Lincon Elemntary"
+    }
+
+]

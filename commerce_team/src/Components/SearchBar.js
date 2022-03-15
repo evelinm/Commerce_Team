@@ -1,23 +1,30 @@
 import React, {useState} from 'react';
 
 
-const  SearchBar = ({onSubmit})=> {
-   const onInputChange = (e) =>{
-       setCustomer(e.target.value)
-    }
-    const [customer,setCustomer] = useState('');
+const  SearchBar = ({data})=> {
+    const [filterFirstName, setFiterFirstName] = useState([]);
 
-    const onFormSubmit = (e) => {
-        e.preventDefault();
-        onSubmit(customer);
+    const handleFilter = (e) => {
+       const searchFirstName =  e.target.value;
+       const newFilter = data.filter((value) => {
+            return value.firstName.slice(0,2).toLowerCase().includes(searchFirstName.toLowerCase());
+       })
+       setFiterFirstName(newFilter)
     }
-
     return (
         <div className="ui segment">
-            <form onSubmit={onFormSubmit} className="ui form">
+            <form  className="ui form">
                 <div className="field">
                     <label>Customer Search</label>
-                    <input type="text"  value={customer}onChange={onInputChange}/>
+                    <input type="text" onChange={handleFilter} />
+                    {filterFirstName.length != 0 && (
+                    <div className="result">
+                    {
+                            filterFirstName.map((value,key) => {
+                                return <div>{value.firstName} </div>
+                            })}
+                    </div>
+                    )}
                 </div>
             </form>
         </div>
