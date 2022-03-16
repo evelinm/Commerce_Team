@@ -73,6 +73,16 @@
         "firstName": "Joei",
         "lastName" : "randi",
         "company" : "Lincon Elemntary"
-    }
+    },
 
+    {
+        "firstName": "Jose",
+        "lastName" : "Alvarado",
+        "company" : "Strawberry Fields"
+    },
+    {
+        "firstName": "Jose",
+        "lastName" : "Chavez",
+        "company" : "Sherwood Elemntary"
+    }
 ]
