@@ -1,23 +1,25 @@
 import React, {useState} from 'react';
+// import CustomerList from './customerList';
 
 
 const  SearchBar = ({data})=> {
     const [filterFirstName, setFiterFirstName] = useState([]);
-    const [filterLastName, setFilterLastName] = useState([]);
+    const [nameEntered, setNameEntered] = useState('');
+    
 
     const handleFilter = (e) => {
        const searchFirstName =  e.target.value;
-    //    const serchLastName = e.target.value;
+       setNameEntered(searchFirstName);
 
        const newFilter = data.filter((value) => {
-            return value.firstName.slice(0,2).toLowerCase().includes(searchFirstName.toLowerCase()) || value.lastName.slice(0,2).toLowerCase().includes(searchFirstName.toLowerCase())
+            return value.firstName.slice(0,20).toLowerCase().includes(searchFirstName.toLowerCase()) || value.lastName.slice(0,20).toLowerCase().includes(searchFirstName.toLowerCase())
        })
 
        if (searchFirstName === "") {
            setFiterFirstName([]);
        } else 
        {
-           setFiterFirstName(newFilter)
+          return setFiterFirstName(newFilter)
        }
        
     }
@@ -26,16 +28,19 @@ const  SearchBar = ({data})=> {
             <form  className="ui form">
                 <div className="field">
                     <label>Customer Search</label>
-                    <input type="text" onChange={handleFilter} />
+                    <input type="text" value={nameEntered} onChange={handleFilter} />
                     {filterFirstName.length != 0 && (
                         <div className="result">
                         {
-                            filterFirstName.map((value) => {
-                                return <div>{value.firstName} {value.lastName} </div>
+                            filterFirstName.slice(0,20).map((value,key) => {
+                                return <div key={key}> 
+                                {value.firstName} {value.lastName} 
+                                </div>
                             })
                         }
                         </div>
                     )}
+                    {/* <CustomerList firstName={value.firstName}/> */}
                 </div>
             </form>
         </div>

@@ -84,5 +84,303 @@
         "firstName": "Jose",
         "lastName" : "Chavez",
         "company" : "Sherwood Elemntary"
+    },
+
+
+    {
+        "firstName": "Leo",
+        "lastName" : "Murillo",
+        "company" : "Petfun"
+    },
+    {
+        "firstName": "Anna",
+        "lastName" : "Munoz",
+        "company" : "Safeway"
+    },
+    {
+        "firstName": "Keon",
+        "lastName" : "Lee",
+        "company" : "Outback"
+    },
+    {
+        "firstName": "Marco",
+        "lastName" : "Nieto",
+        "company" : "Google"
+    },
+    {
+        "firstName": "Joei",
+        "lastName" : "Murillo",
+        "company" : "Google"
+    },
+    {
+        "firstName": "Kenny",
+        "lastName" : "Villicana",
+        "company" : "Google"
+    },
+    {
+        "firstName": "Randi",
+        "lastName" : "Murillo",
+        "company" : "Safeway"
+    },
+    {
+        "firstName": "Aylin",
+        "lastName" : "Nieto",
+        "company" : "Lincon Elemntary"
+    },
+
+    {
+        "firstName": "Anahi",
+        "lastName" : "Alvarado",
+        "company" : "Strawberry Fields"
+    },
+    {
+        "firstName": "Hector",
+        "lastName" : "Chavez",
+        "company" : "Sherwood Elemntary"
+    },
+
+
+    {
+        "firstName": "Leo",
+        "lastName" : "Nieto",
+        "company" : "Google"
+    },
+    {
+        "firstName": "Anna",
+        "lastName" : "Nieto",
+        "company" : "Hospital"
+    },
+    {
+        "firstName": "Anahi",
+        "lastName" : "Lee",
+        "company" : "Ikea"
+    },
+    {
+        "firstName": "Hector",
+        "lastName" : "Alvarez",
+        "company" : "Sephora"
+    },
+    {
+        "firstName": "Joei",
+        "lastName" : "Alvarez",
+        "company" : "Lincon Elemntary"
+    },
+    {
+        "firstName": "Kenny",
+        "lastName" : "Munoz",
+        "company" : "Ikea"
+    },
+    {
+        "firstName": "Bryan",
+        "lastName" : "Nieto",
+        "company" : "Meta"
+    },
+    {
+        "firstName": "Juniper",
+        "lastName" : "Munoz",
+        "company" : "Meta"
+    },
+
+    {
+        "firstName": "Stephani",
+        "lastName" : "Alvarado",
+        "company" : "Strawberry Fields"
+    },
+    {
+        "firstName": "Stephani",
+        "lastName" : "Chavez",
+        "company" : "Sherwood Elemntary"
+    },
+
+    {
+        "firstName": "Niles",
+        "lastName" : "Murillo",
+        "company" : "Taskrabbit"
+    },
+    {
+        "firstName": "Robert",
+        "lastName" : "Guerro",
+        "company" : "Bobs Burgers"
+    },
+    {
+        "firstName": "Isreal",
+        "lastName" : "Andrade",
+        "company" : "Unemployed"
+    },
+    {
+        "firstName": "Frank",
+        "lastName" : "Nieto",
+        "company" : "New Relic"
+    },
+    {
+        "firstName": "Maria",
+        "lastName" : "Belcher",
+        "company" : "Bobs Burgers"
+    },
+    {
+        "firstName": "Maria",
+        "lastName" : "crane",
+        "company" : "Unemployed"
+    },
+    {
+        "firstName": "Aylin",
+        "lastName" : "crane",
+        "company" : "Safeway"
+    },
+    {
+        "firstName": "David",
+        "lastName" : "Munoz",
+        "company" : "Leef"
+    },
+    {
+        "firstName": "Daniel",
+        "lastName" : "Anda",
+        "company" : "Hospital"
+    },
+    {
+        "firstName": "Ellie",
+        "lastName" : "Lee",
+        "company" : "Ikea"
+    },
+    {
+        "firstName": "Sam",
+        "lastName" : "Alvarez",
+        "company" : "Sephora"
+    },
+    {
+        "firstName": "Soraida",
+        "lastName" : "Baghania",
+        "company" : "Lincon Elemntary"
+    },
+    {
+        "firstName": "Soraida",
+        "lastName" : "Anda",
+        "company" : "Ikea"
+    },
+    {
+        "firstName": "Imelda",
+        "lastName" : "Alvarez",
+        "company" : "Sephora"
+    },
+    {
+        "firstName": "Imelda",
+        "lastName" : "randi",
+        "company" : "Lincon Elemntary"
+    },
+
+    {
+        "firstName": "Hector",
+        "lastName" : "Alvarado",
+        "company" : "Walgreens"
+    },
+    {
+        "firstName": "Jose",
+        "lastName" : "Chavez",
+        "company" : "walgreens"
+    },
+
+    {
+        "firstName": "Lea",
+        "lastName" : "Nieto",
+        "company" : "Petfun"
+    },
+    {
+        "firstName": "John",
+        "lastName" : "Munoz",
+        "company" : "Safeway"
+    },
+    {
+        "firstName": "Bjorn",
+        "lastName" : "Cooley",
+        "company" : "Outback"
+    },
+    {
+        "firstName": "Felipe",
+        "lastName" : "Nieto",
+        "company" : "Google"
+    },
+    {
+        "firstName": "Kurt",
+        "lastName" : "Tomilson",
+        "company" : "Google"
+    },
+    {
+        "firstName": "David",
+        "lastName" : "Villicana",
+        "company" : "Google"
+    },
+    {
+        "firstName": "Demarius",
+        "lastName" : "Murillo",
+        "company" : "Safeway"
+    },
+    {
+        "firstName": "Alejandro",
+        "lastName" : "Rincon",
+        "company" : "Lincon Elemntary"
+    },
+
+    {
+        "firstName": "Angie",
+        "lastName" : "Alvarado",
+        "company" : "Strawberry Fields"
+    },
+    {
+        "firstName": "Samantha",
+        "lastName" : "Chavez",
+        "company" : "Sherwood Elemntary"
+    },
+
+
+    {
+        "firstName": "Samantha",
+        "lastName" : "Nieto",
+        "company" : "Google"
+    },
+    {
+        "firstName": "Ellie",
+        "lastName" : "Nieto",
+        "company" : "Hospital"
+    },
+    {
+        "firstName": "Maria",
+        "lastName" : "Lee",
+        "company" : "Ikea"
+    },
+    {
+        "firstName": "Louise",
+        "lastName" : "Alvarez",
+        "company" : "Sephora"
+    },
+    {
+        "firstName": "Ricardo",
+        "lastName" : "Alvarez",
+        "company" : "Lincon Elemntary"
+    },
+    {
+        "firstName": "Ricardo",
+        "lastName" : "Munoz",
+        "company" : "Ikea"
+    },
+    {
+        "firstName": "Selena",
+        "lastName" : "Nieto",
+        "company" : "Meta"
+    },
+    {
+        "firstName": "Vincente",
+        "lastName" : "Munoz",
+        "company" : "Meta"
+    },
+
+    {
+        "firstName": "Vicente",
+        "lastName" : "Alvarado",
+        "company" : "Strawberry Fields"
+    },
+    {
+        "firstName": "vicente",
+        "lastName" : "Chavez",
+        "company" : "Sherwood Elemntary"
     }
 ]
