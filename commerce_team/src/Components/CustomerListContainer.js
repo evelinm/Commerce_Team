@@ -6,7 +6,7 @@ const CustomerList = ({sortValue}) => {
   
     <div className="customer-list-container">
     {sortValue.slice(0,50).map((value) => {
-           return <div className="customers-information"> {value.firstName}   {value.lastName}   {value.company} </div>})
+           return <div className="customers-information"> {value.firstName}&nbsp; &nbsp;{value.lastName}&nbsp; &nbsp;{value.company} </div>})
     }
     </div>
     )

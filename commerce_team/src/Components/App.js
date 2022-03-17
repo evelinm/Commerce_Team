@@ -5,19 +5,18 @@ import SearchBar from './SearchBar';
 import SortBy from './SortBy';
 import DropDownMenu from './DropDownMenu';
 
-
-
-
-
 const App = () => {
     return (
-        <div className="ui container">
+        <div className="ui container search-bar-container">
             <SearchBar data={response}/>
            <div className="company-name-drop-down">
-           <div className="drop-down-container"> <DropDownMenu data={response}/></div>
-           <div className="sort-by-container"><SortBy data={response}/></div>
+                <div className="drop-down-container">                       <DropDownMenu data={response}/>
+                </div>
+                <div className="sort-by-container">
+                    <SortBy data={response}/>
+                </div>
            </div>
-            </div>
+        </div>
     )
 };
 export default App;

@@ -1,5 +1,10 @@
+.search-bar-container {
+  margin-top: 40px;
+}
 .company-name-drop-down {
   display: flex;
+  background-color: #71ccd2;
+  padding: 30px;
 }
 
 .drop-down-container {
@@ -7,5 +12,5 @@
 }
 
 .sort-by-container {
-  margin-right: 30%;
+  margin-right: 15%;
 }
