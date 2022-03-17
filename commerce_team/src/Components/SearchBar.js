@@ -1,21 +1,21 @@
-import React, {useState} from 'react';
-// import CustomerList from './customerList';
+import React, { useState } from 'react';
 
 
-const  SearchBar = ({data})=> {
+const  SearchBar = ({ data })=> {
     const [filterFirstName, setFiterFirstName] = useState([]);
     const [nameEntered, setNameEntered] = useState('');
     
 
     const handleFilter = (e) => {
-       const searchFirstName =  e.target.value;
-       setNameEntered(searchFirstName);
+       const query =  e.target.value.trim().toLowerCase();
+       setNameEntered(e.target.value);
 
-       const newFilter = data.filter((value) => {
-            return value.firstName.slice(0,20).toLowerCase().includes(searchFirstName.toLowerCase()) || value.lastName.slice(0,20).toLowerCase().includes(searchFirstName.toLowerCase())
+       const newFilter = data.filter(({firstName, lastName}) => {
+            return `${firstName} ${lastName}`.toLowerCase().includes(query) 
+            || `${lastName} ${firstName}`.toLowerCase().includes(query);
        })
 
-       if (searchFirstName === "") {
+       if (query === "") {
            setFiterFirstName([]);
        } else 
        {
@@ -32,15 +32,14 @@ const  SearchBar = ({data})=> {
                     {filterFirstName.length != 0 && (
                         <div className="result">
                         {
-                            filterFirstName.slice(0,20).map((value,key) => {
+                            filterFirstName.slice(0,10).map((value,key) => {
                                 return <div key={key}> 
                                 {value.firstName} {value.lastName} 
                                 </div>
-                            })
+                        })
                         }
                         </div>
                     )}
-                    {/* <CustomerList firstName={value.firstName}/> */}
                 </div>
             </form>
         </div>

@@ -1,0 +1,10 @@
+.customer-information-container {
+  display: flex;
+}
+.company-name-drop-down {
+  flex: 5;
+}
+
+.sorting-filter {
+  flex: 1;
+}

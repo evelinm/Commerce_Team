@@ -1,9 +1,16 @@
-import React,{useState} from 'react';
+import React,{ useState } from 'react';
 import "../CSS/drop-down-menu.css"
 
-const DropDownMenu = ({data}) => {
+const DropDownMenu = ({ data }) => {
 
    const [isActive, setIsActive ] = useState(false);
+   
+   let unique = [];
+   data.map((val) => {
+       unique.push(val.company)
+   })
+   console.log("uniue",unique);
+   unique = [...new Set(unique)]
 
     return (
         <div className="dropdown">
@@ -11,12 +18,10 @@ const DropDownMenu = ({data}) => {
         <span className="dropdown-caret"> + </span>
          </div>
         <div className="dropdown-content"> 
-        
-           {isActive && (data.map((value) => {
-           return <div className="dropdown-item">{value.company} </div>})
+            All Companies
+           { isActive && (unique.slice(0,100).map((value) => {
+           return <div className="dropdown-item">{value} </div>})
            )}
-
-        
         </div>
         </div>
     )
