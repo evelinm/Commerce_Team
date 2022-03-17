@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 
 const  SearchBar = ({ data })=> {
-    const [filterFirstName, setFiterFirstName] = useState([]);
+    const [filterName, setFilterName] = useState([]);
     const [nameEntered, setNameEntered] = useState('');
     
 
@@ -16,10 +16,10 @@ const  SearchBar = ({ data })=> {
        })
 
        if (query === "") {
-           setFiterFirstName([]);
+           setFilterName([]);
        } else 
        {
-          return setFiterFirstName(newFilter)
+          return setFilterName(newFilter)
        }
        
     }
@@ -29,10 +29,10 @@ const  SearchBar = ({ data })=> {
                 <div className="field">
                     <label>Customer Search</label>
                     <input type="text" value={nameEntered} onChange={handleFilter} />
-                    {filterFirstName.length != 0 && (
+                    {filterName.length != 0 && (
                         <div className="result">
                         {
-                            filterFirstName.slice(0,10).map((value,key) => {
+                            filterName.slice(0,10).map((value,key) => {
                                 return <div key={key}> 
                                 {value.firstName} {value.lastName} 
                                 </div>

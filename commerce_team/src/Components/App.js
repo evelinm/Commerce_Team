@@ -11,13 +11,13 @@ import DropDownMenu from './DropDownMenu';
 
 const App = () => {
     return (
-        <div className="ui container" style={{marginTop: '20px'}}>
-            <div className="customer-information-container">
+        <div className="ui container">
             <SearchBar data={response}/>
-           <div className="company-name-drop-down"><DropDownMenu data={response}/></div> 
-            <div className="sorting-filter"> <SortBy data={response}/></div>
+           <div className="company-name-drop-down">
+           <div className="drop-down-container"> <DropDownMenu data={response}/></div>
+           <div className="sort-by-container"><SortBy data={response}/></div>
+           </div>
             </div>
-        </div>
     )
 };
 export default App;

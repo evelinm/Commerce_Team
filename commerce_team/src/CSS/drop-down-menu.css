@@ -13,6 +13,10 @@ body {
   margin: 100px auto;
   position: absolute;
 }
+.dropdown-sort-by {
+  width: 400px;
+  margin: 100px auto;
+}
 
 .dropdown .dropdown-btn {
   padding: 10px;

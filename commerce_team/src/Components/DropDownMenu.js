@@ -3,13 +3,12 @@ import "../CSS/drop-down-menu.css"
 
 const DropDownMenu = ({ data }) => {
 
-   const [isActive, setIsActive ] = useState(false);
+   const [ isActive, setIsActive ] = useState(false);
    
    let unique = [];
    data.map((val) => {
        unique.push(val.company)
    })
-   console.log("uniue",unique);
    unique = [...new Set(unique)]
 
     return (
@@ -19,7 +18,7 @@ const DropDownMenu = ({ data }) => {
          </div>
         <div className="dropdown-content"> 
             All Companies
-           { isActive && (unique.slice(0,100).map((value) => {
+           { isActive && (unique.sort().slice(0,100).map((value) => {
            return <div className="dropdown-item">{value} </div>})
            )}
         </div>
