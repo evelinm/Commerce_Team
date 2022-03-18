@@ -49,7 +49,7 @@ const SortBy = ({ data }) => {
     return (
         <div>
             Sort By : 
-                <select  onClick={ handleSort }> 
+                <select  onChange={ handleSort }> 
                    <option  value="ascendingFirstName" > 
                    First Name - Ascending
                     </option>
