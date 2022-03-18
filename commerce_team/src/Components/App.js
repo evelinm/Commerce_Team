@@ -7,7 +7,7 @@ import DropDownMenu from './DropDownMenu';
 
 const App = () => {
     return (
-        <div className="ui container search-bar-container">
+        <div className="ui container search-bar-container" id="searchBar">
             <SearchBar data={response}/>
            <div className="company-name-drop-down">
                 <div className="drop-down-container">                       <DropDownMenu data={response}/>
