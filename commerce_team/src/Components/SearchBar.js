@@ -24,12 +24,12 @@ const  SearchBar = ({ data })=> {
        
     }
     return (
-        <div className="ui segment">
+        <div className="ui segment" id="searchBar">
             <form  className="ui form">
                 <div className="field">
                     <label>Customer Search</label>
                     <input type="text" value={nameEntered} onChange={handleFilter} />
-                    {filterName.length != 0 && (
+                    {filterName.length !== 0 && (
                         <div className="result">
                         {
                             filterName.slice(0,10).map((value,key) => {

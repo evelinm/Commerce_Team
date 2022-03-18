@@ -16,8 +16,21 @@
  * @type {Cypress.PluginConfig}
  */
 // eslint-disable-next-line no-unused-vars
+// module.exports = (on, config) => {
+//   // `on` is used to hook into various events Cypress emits
+//   // `config` is the resolved Cypress config
+ 
+//   if (config.testingType === 'component') {
+//     require('@cypress/react/plugins/react-scripts')(on, config)
+//   }
+
+//   return config
+// }
+
+const injectDevServer = require("@cypress/react/plugins/react-scripts")
+
 module.exports = (on, config) => {
-  // `on` is used to hook into various events Cypress emits
-  // `config` is the resolved Cypress config
+  injectDevServer(on, config)
+  return config
 }
 
