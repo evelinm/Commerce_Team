@@ -3,12 +3,17 @@ import { mount } from '@cypress/react';
 import SearchBar from './Components/SearchBar';
 
 describe('SearchBar', () => {
-    it('renders the todo list', () => {
-    // cy.visit('http://localhost:3001/?')
+    it('renders Search Bar', () => {
       mount(<SearchBar />)
-      // cy.get('a').contains('Learn React')
       cy.get("#searchBar").should("exist") 
     })
-
-
 })
+
+describe('SearchBar functionality', ()=> {
+    it('searches for name and name pops up', () => {
+      mount(<SearchBar/>)
+      cy.get('input#query')
+      .type('Evel');
+    })
+})
+

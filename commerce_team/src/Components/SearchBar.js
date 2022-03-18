@@ -25,10 +25,10 @@ const  SearchBar = ({ data })=> {
     }
     return (
         <div className="ui segment" id="searchBar">
-            <form  className="ui form">
+            <form className="ui form">
                 <div className="field">
                     <label>Customer Search</label>
-                    <input type="text" value={nameEntered} onChange={handleFilter} />
+                    <input id="query" type="text" value={nameEntered} onChange={handleFilter} />
                     {filterName.length !== 0 && (
                         <div className="result">
                         {

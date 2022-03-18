@@ -17,29 +17,29 @@ const SortBy = ({ data }) => {
         const descendingCompany = (a, b) => (a.company < b.company) ? 1 : -1;
 
         if (value === "ascendingFirstName") {
-            setSortValue(data.sort(ascendingFirstName ))
+            setSortValue([...data].sort(ascendingFirstName ))
             console.log('1')
         }
         else if ( value === "descendingFirstName") {
-            setSortValue(data.sort(descendingFirstName))
+            setSortValue([...data].sort(descendingFirstName))
             console.log('2')
         }
         else if (value === "ascendingLastName") {
-           setSortValue(data.sort(ascendingLastName))
+           setSortValue([...data].sort(ascendingLastName))
            console.log('3')
         }
         else if (value === "descendingLastName") {
-            setSortValue(data.sort(descendingLastName))
+            setSortValue([...data].sort(descendingLastName))
             console.log('4')
 
         }
         else if (value === "ascendingCompany") {
-            setSortValue(data.sort(ascendingCompany))
+            setSortValue([...data].sort(ascendingCompany))
             console.log('4')
 
         }
         else if (value === "descendingCompany") {
-            setSortValue(data.sort(descendingCompany))
+            setSortValue([...data].sort(descendingCompany))
            
         }
     }
