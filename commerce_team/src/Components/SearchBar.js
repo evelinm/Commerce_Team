@@ -10,7 +10,7 @@ const  SearchBar = ({ data })=> {
        const query =  e.target.value.trim().toLowerCase();
        setNameEntered(e.target.value);
 
-       const newFilter = data.filter(({firstName, lastName}) => {
+       const newFilter = data?.filter(({firstName, lastName}) => {
             return `${firstName} ${lastName}`.toLowerCase().includes(query) 
             || `${lastName} ${firstName}`.toLowerCase().includes(query);
        })

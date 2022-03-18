@@ -1,0 +1,9 @@
+.sort-by-selector {
+  padding: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+  background: #fff;
+  box-shadow: 3px 3px 10px 6px rgb(0 0 0 / 6%);
+  color: #333;
+  border: none;
+}
