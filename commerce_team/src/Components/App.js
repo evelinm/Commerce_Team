@@ -1,6 +1,6 @@
 import React from 'react';
 import response from "../Response.json";
-import '../CSS/main.css';
+import '../CSS/main.scss';
 import SearchBar from './SearchBar';
 import SortBy from './SortBy';
 import DropDownMenu from './DropDownMenu';

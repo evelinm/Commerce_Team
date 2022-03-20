@@ -5,6 +5,11 @@
   display: flex;
   background-color: #71ccd2;
   padding: 30px;
+
+  @media only screen and (max-width: 1200px) {
+    flex-direction: column;
+    margin-top: 80px;
+  }
 }
 
 .drop-down-container {
