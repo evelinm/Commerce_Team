@@ -9,11 +9,12 @@ describe('SearchBar', () => {
     })
 })
 
-describe('SearchBar functionality', ()=> {
+describe('SearchBar functionality', () => {
     it('searches for name and name pops up', () => {
       mount(<SearchBar/>)
       cy.get('input#query')
-      .type('Evel');
+      .type('Evelin Murillo');
     })
 })
+
 

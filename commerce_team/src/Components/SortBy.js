@@ -40,7 +40,7 @@ const SortBy = ({ data }) => {
     }
     
     return (
-        <div className="drop-down-container">
+        <div className="drop-down-container" id="sortBy">
             Sort By : 
                 <select className="drop-down-menu" onChange={ handleSort }> 
                    <option  value="ascendingFirstName" > 

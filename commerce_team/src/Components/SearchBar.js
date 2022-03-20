@@ -29,17 +29,17 @@ const  SearchBar = ({ data })=> {
                 <div className="field">
                     <label>Customer Search</label>
                     <input id="query" type="text" value={nameEntered} onChange={handleFilter} />
-                    {filterName.length !== 0 && (
+                    { 
                         <div className="result">
                         {
-                            filterName.slice(0,10).map((value,key) => {
+                            filterName?.map((value,key) => {
                                 return <div key={key}> 
                                 {value.firstName} {value.lastName} 
                                 </div>
                         })
                         }
                         </div>
-                    )}
+                    }
                 </div>
             </form>
         </div>
