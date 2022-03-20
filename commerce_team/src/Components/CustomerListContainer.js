@@ -1,12 +1,13 @@
 import React from 'react';
-import '../CSS/customer-list.css';
+import '../CSS/customer-list.scss';
 
 const CustomerList = ({ sortValue }) => {
 
     return (
         <div className="customer-list-container">
-            {sortValue.slice(0,50).map((value) => {
-                return <div className="customers-information"> {value.firstName}&nbsp; &nbsp;{value.lastName}&nbsp; &nbsp;{value.company} </div>})
+            { sortValue.slice(0,50).map((value) => {
+                return <div className="customers-information"> {value.firstName}&nbsp; &nbsp;{value.lastName}&nbsp; &nbsp;{value.company} </div> 
+                })
             }
         </div>
     )

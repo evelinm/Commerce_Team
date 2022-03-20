@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../CSS/sort-by.css';
+import '../CSS/drop-down.scss';
 import CustomerListContainer from './CustomerListContainer';
 
 const SortBy = ({ data }) => {
@@ -38,10 +38,11 @@ const SortBy = ({ data }) => {
            
         }
     }
+    
     return (
-        <div>
+        <div className="drop-down-container">
             Sort By : 
-                <select className="sort-by-selector" onChange={ handleSort }> 
+                <select className="drop-down-menu" onChange={ handleSort }> 
                    <option  value="ascendingFirstName" > 
                    First Name - Ascending
                     </option>

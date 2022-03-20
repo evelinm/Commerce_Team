@@ -1,4 +1,12 @@
-.sort-by-selector {
+.drop-down-container {
+  font-weight: 600;
+
+  @media only screen and (max-width: 1200px) {
+    margin-bottom: 80px;
+  }
+}
+
+.drop-down-menu {
   padding: 10px 50px;
   margin-left: 10px;
   font-weight: bold;

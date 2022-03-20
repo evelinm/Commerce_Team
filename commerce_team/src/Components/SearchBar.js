@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
-
 const  SearchBar = ({ data })=> {
+
     const [filterName, setFilterName] = useState([]);
     const [nameEntered, setNameEntered] = useState('');
     
-
     const handleFilter = (e) => {
        const query =  e.target.value.trim().toLowerCase();
+
        setNameEntered(e.target.value);
 
        const newFilter = data?.filter(({firstName, lastName}) => {
