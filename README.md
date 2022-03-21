@@ -7,6 +7,7 @@ Desing to visualize the components
 1. Draw out project
 2. Create my own JSON file 
 3. Create all components 
+4. Think of edge cases when developing component `ex Search bar you can look up by first name or last name and you can use capitals or not, search bar will still work.`
 
 
 
