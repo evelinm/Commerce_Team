@@ -10,11 +10,8 @@ describe ('SortBy', () => {
    it('renders component', () => {
         cy.get("#sortBy").should('be.visible')
    })
-})
 
-// describe('Sorts by functionality', () => {
-//     it('sorts first name in acs order ', () => {
-//         mount(<SortBy/>)
-        
-//     })
-// })
+   it('sorts first name in acs order', () => {
+        cy.get('#sortBy').get('select').select('ascendingFirstName', {force: true}).should('have.value', 'ascendingFirstName')
+    })
+})
