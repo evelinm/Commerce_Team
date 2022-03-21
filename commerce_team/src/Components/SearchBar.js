@@ -27,7 +27,7 @@ const  SearchBar = ({ data })=> {
         <div className="ui segment" id="searchBar">
             <form className="ui form">
                 <div className="field">
-                    <label>Customer Search</label>
+                    <label> Customer Search </label>
                     <input id="query" type="text" value={nameEntered} onChange={handleFilter} />
                     { 
                         <div className="result">
