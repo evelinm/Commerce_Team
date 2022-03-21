@@ -25,3 +25,4 @@ Desing to visualize the components
 3. Run each test individually 
 
 
+<img width="1209" alt="image" src="https://user-images.githubusercontent.com/46979071/159341392-5452bc7a-4790-468c-833b-4ad48ec6e254.png">
