@@ -11,10 +11,9 @@ Desing to visualize the components
 
 
 
-- Using Scss for styling
+- Using SCSS for styling
 - Cypress for End to End 
 - React 
-
 
 **To run APP** 
 
