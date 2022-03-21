@@ -13,7 +13,7 @@ const DropDownMenu = ({ data }) => {
 
     return (
       <div className="drop-down-container" id="companyDropDown">
-        Company Name : 
+        Companies : 
         <select className="drop-down-menu" id="dropDownSelector">
         {unique.sort().slice(0,100).map((value) => {
            return <option> {value} </option>})
