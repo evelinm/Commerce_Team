@@ -30,7 +30,7 @@ Desing to visualize the components
 
 <img width="1209" alt="image" src="https://user-images.githubusercontent.com/46979071/159341392-5452bc7a-4790-468c-833b-4ad48ec6e254.png">
 
-`**Thank you again for taking a look at this, and please let me know if you have any questions **`
+**Thank you again for taking a look at this, and please let me know if you have any questions **
 
 
 
